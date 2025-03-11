@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Bisai Satish</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        .skills-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills-list li {
+            margin: 5px 0;
+        }
+        .education, .skills, .contact {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Bisai Satish</h1>
+        <h2>B.Tech in Computer Science Engineering</h2>
+
+        <div class="section education">
+            <h2>Education</h2>
+            <p><strong>Visakha Institute of Engineering and Technology</strong></p>
+            <p><strong>Degree:</strong> B.Tech in Computer Science Engineering (CSE)</p>
+            <p><strong>Year of Graduation:</strong> 2027</p>
+            <p><strong>CGPA:</strong> 80%</p>
+        </div>
+
+        <div class="section skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>Programming Languages: Java, C++</li>
+                <li>Web Development: Full Stack (Frontend & Backend)</li>
+            </ul>
+        </div>
+
+        <div class="section contact">
+            <h2>Contact</h2>
+            <p>Email: <strong>your-email@example.com</strong></p>
+            <p>Phone: <strong>Your Phone Number</strong></p>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
